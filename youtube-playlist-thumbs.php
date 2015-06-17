@@ -2,7 +2,7 @@
 /*
 Plugin Name: Youtube Playlist Thumbs
 Description: Use the [ypt] shortcode to show a Youtube playlist. Videos within playlist can be triggered by links in page content.
-Version: 0.5.0
+Version: 0.5.1
 Author: Joseph Stiles
 License: GPL2
 */

@@ -45,6 +45,7 @@ function buildHTML(data){ //Turns JSON data into HTML elements
   var list_data = ''; //A string container
   for(i = 0; i < data.length; i++){ //Do this to each item in the JSON list
     var item = data[i].snippet; //Each Youtube playlist item snippet
+    if(!item.thumbnails){continue;} //private videos do no reveal thumbs, so skip them
     list_data += '<li data-ypt-index="'+ i +'"><p>' + item.title + '</p><span><img alt="'+ item.title +'" src="'+ item.thumbnails.medium.url +'"/></span></li>'; //create an element and add it to the list
   }
   ypt_thumbs.innerHTML = list_data; //After the for loop, insert that list of links into the html

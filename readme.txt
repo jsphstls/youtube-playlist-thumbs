@@ -14,7 +14,7 @@ Use the [ypt playlist_id=] shortcode to show a Youtube playlist with side thumbn
 
 [Demo](http://codepen.io/jsphstls/full/aOOqzg)
 
-Install and activate the plugin. Insert the [ypt playlist_id=] shortcode in your page or post and insert your playlist ID ater the equal. When that content is published and viewed, a Youtube player will appear and a column of thumbnails will load to the right of the player. Clicking the thumbnails switches between videos.
+Install and activate the plugin. Insert the [ypt playlist_id=] shortcode in your page or post and insert your playlist ID after the equal. When that content is published and viewed, a Youtube player will appear and a column of thumbnails will load to the right of the player. Clicking the thumbnails switches between videos.
 
 This plugin includes a small CSS file for minimal styling that was written to target the specific IDs of the thumb list and player.
 
@@ -70,6 +70,9 @@ Thumbnail list limit raised from 25 to 50.
 = 0.5.0 =
 Thumbnail list limit raised to 200. Speed increase.
 
+= 0.5.1 =
+Private videos in a playlist will be skipped.
+
 == Upgrade Notice ==
 
 = 0.2 =
@@ -83,6 +86,9 @@ Thumbnail list limit raised from 25 to 50.
 
 = 0.5.0 =
 Thumbnail list limit raised to 200. Speed increase.
+
+= 0.5.1 =
+Private videos in a playlist will be skipped.
 
 == Usage ==
 
