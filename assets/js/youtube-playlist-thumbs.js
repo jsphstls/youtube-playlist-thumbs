@@ -13,7 +13,7 @@ var nowPlayingClass = "." + nowPlaying;
 var ypt_index = 0; //Playlists begin at the first video by default
 
 function getPlaylistData(playlistID, video_list, page_token) { //Makes a single request to Youtube Data API
-  var apiKey = 'AIzaSyArQNfmJDkjxP_ZyZIocbyuDeyTanf4Rl8';
+  var apiKey = yptKey; //from the <head>
   var theUrl =
   'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet' +
   '&maxResults='+ 50 + //Can be anything from 1-50
